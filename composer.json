@@ -1,0 +1,26 @@
+{
+    "name": "gdce/contact",
+    "description": "This will send email to admin and save contact to database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rach",
+            "email": "sovannrach@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Gdce\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gdce\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
